@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparador de Números</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+        <form id="formulario">
+            <h1>COMPARADOR DE NUMEROS</h1>
+            <div id="text-h4">
+                Informe valores para que o Campo B seja maior que o Campo A.
+            </div>
+            <input type="number" id="campoA" required placeholder="Campo A" />
+            <P class="error-msg">
+                O valor precisa ser maior que o Campo B
+            </P>
+            <input type="number" id="campoB" required placeholder="Campo B" />
+            <button type="submit" id="btnCalc">Calcular</button>
+        </form>
+        <p class="success-msg"></p>
+        <p class="error-msg"></p>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
